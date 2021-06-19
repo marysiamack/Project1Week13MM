@@ -4,7 +4,7 @@ Project 1 Week 13 Cybersecurity
 
 The files in this repository were used to configure the network depicted below.
 
-![Diagram](https://github.com/marysiamack/Project1Week13MM/blob/main/Project%201%20Network%20Diagram.png/?raw=true "Diagram")
+![Diagram](https://github.com/marysiamack/Project1Week13MM/blob/main/Diagrams/Project%201%20Network%20Diagram.png/?raw=true "Diagram")
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml files may be used to install only certain pieces of it, such as Filebeat.
 
@@ -82,7 +82,7 @@ The main advantage is that it's efficient for a business in that it's scalable, 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![DockerPS](https://github.com/marysiamack/Project1Week13MM/blob/main/DockerPS.png "DockerPS")
+![DockerPS](https://github.com/marysiamack/Project1Week13MM/blob/main/Images/DockerPS.png "DockerPS")
 
 ## Target Machines & Beats
 This ELK server is configured to monitor the following machines:
