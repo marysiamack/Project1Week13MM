@@ -82,7 +82,7 @@ The main advantage is that it's efficient for a business in that it's scalable, 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![DockerPS](https://github.com/marysiamack/Project1Week13MM/blob/main/DockerPS.png "DockerPS")
 
 ## Target Machines & Beats
 This ELK server is configured to monitor the following machines:
