@@ -1,0 +1,67 @@
+Add the sample web log data to Kibana.
+
+
+Answer the following questions:
+ In the last 7 days, how many unique visitors were located in India?
+   -245 unique visitors
+ In the last 24 hours, of the visitors from China, how many were using Mac OSX?
+    10 unique visitors 
+
+In the last 2 days, what percentage of visitors received 404 errors? How about 503 errors?
+       0% for all errors
+
+In the last 7 days, what country produced the majority of the traffic on the website?
+China with 259 unique visitors
+
+
+Of the traffic that's coming from that country, what time of day had the highest amount of activity?
+06:00 
+
+List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
+Css - Cascading Style Sheets is the full name. It describes how HTML components need to be displayed, i.e. design, layout.  
+Deb - Debian Linux Paackage File. Unix archive files and is used for install packages that contain software for Linux operating systems that use Debian.
+Gz - This is a file extension that compresses files
+Rpm  - “Red Hat Package Manager” file that's used to store installation packages on Linux operating systems.These files provide an easy way for software to be distributed, installed, upgraded, and removed.
+Zip - This is a file extension that compresses files
+
+
+
+Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
+
+
+Locate the time frame in the last 7 days with the most amount of bytes (activity).
+6-13 at 21:00
+In your own words, is there anything that seems potentially strange about this activity?
+Initially nothing seems strange about a spike of activity at 21:00 because that’s when most people are home from work searching. What does set off alarms is that the spike doesn’t correlate with spikes in unique visitors. 
+
+
+Filter the data by this event.
+What is the timestamp for this event?
+June 13 at 21:55
+What kind of file was downloaded?
+rpm file was downloaded 
+From what country did this activity originate?
+USA
+What HTTP response codes were encountered by this visitor?
+200
+
+Switch to the Kibana Discover page to see more details about this activity.
+
+What is the source IP address of this activity?
+35.143.166.159
+What are the geo coordinates of this activity?
+{ “lat”: 43.34121, “lon”: -73.6103075 }
+What OS was the source machine running?
+Windows 8
+What is the full URL that was accessed?
+https://artifacts.elastic.co/downloads/beats/metricbeat/metricbeat-6.3.2-i686.rpm
+From what website did the visitor's traffic originate?
+artifacts.elastic.co
+
+Finish your investigation with a short overview of your insights.
+
+
+What do you think the user was doing?
+Was the file they downloaded malicious? If not, what is the file used for?
+Is there anything that seems suspicious about this activity?
+Is any of the traffic you inspected potentially outside of compliance guidelines?
